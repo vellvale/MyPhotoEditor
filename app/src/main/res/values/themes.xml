@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.MyPhotoEditor" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.MyPhotoEditor.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MyPhotoEditor.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.MyPhotoEditor.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="EditText">
+        <item name="android:singleLine">true</item>
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>
