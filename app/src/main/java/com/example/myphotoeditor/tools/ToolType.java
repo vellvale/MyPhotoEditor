@@ -4,3 +4,5 @@ public enum ToolType {
     TUNE, TEXT, ERASER, CORRECTION, RETOUCH
 }
 
+// инструменты на главном окне
+
